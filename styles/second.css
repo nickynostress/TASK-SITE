@@ -6,7 +6,9 @@ header {
     border: solid whitesmoke;
 }
 footer {
-    clear: both; 
+    clear: both;
+    font-family: 'Times New Roman', Times, serif;
+    color: beige; 
     background-color: rgba(100, 80, 80, 0.506);
     display: flex;
     justify-content: center;
@@ -99,7 +101,7 @@ figcaption {
 }
 body {
     background: linear-gradient(to right, rgb(36, 36, 41), rgb(95, 87, 95)); 
-    width: 90%;
+    width: 95%;
     margin-left: auto;
     margin-right: auto;    
 }
