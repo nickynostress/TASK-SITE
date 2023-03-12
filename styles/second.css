@@ -1,0 +1,114 @@
+header {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    border: solid whitesmoke;
+}
+footer {
+    clear: both; 
+    background-color: rgba(100, 80, 80, 0.506);
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    border: solid whitesmoke;
+    width: 100%;
+    margin-top: 30px; 
+}
+nav {
+    background-color: rgba(100, 80, 80, 0.506);
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    border: solid whitesmoke;
+    flex-direction: row; 
+}
+nav ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+nav ul li {
+    padding: 0 10px; 
+}
+a {
+    color: bisque;
+    font-family: 'Times New Roman', Times, serif;
+    border-width: 2px;
+}
+#kuva2 {
+    display: block;
+    margin: 0 auto;
+    border-radius: 25px;
+    border-width: 5px;
+    border-color: whitesmoke;
+    border-style: groove;
+    width: 400px;
+}
+#kuva1 {
+    display: block;        
+    border-radius: 25px;
+    border-width: 10px;
+    border-color: beige;
+    border-style: groove;
+    margin: auto;
+    width: 150px;
+}
+p1, p2, p3, p4 {
+    color: white;
+    background-color: rgba(144, 120, 120, 0.448);
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 3px;
+    padding: 1px;
+    letter-spacing: 2px;
+}
+h1 {
+    color: beige;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-left: 2%;
+}
+h2 {
+    background-color: black;
+    border: 5px solid whitesmoke;
+    float: right;
+    padding: 20px 20px 20px 20px;
+    margin: 10px 20px 30px 40px;
+    border-style: dashed;
+    border-width: 2px;
+    font-family: 'Times New Roman', Times, serif;
+    color: bisque;
+    font-size: x-large;
+}
+figcaption {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(145, 134, 134);
+    color: bisque;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: larger;
+    padding: 10px;
+    margin: 50px;
+    border: 2px solid whitesmoke;
+    border-width: 4px;
+}
+body {
+    background: linear-gradient(to right, rgb(36, 36, 41), rgb(95, 87, 95)); 
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;    
+}
+div {
+    padding: 20px;
+    margin: 10px 20px 30px 40px;
+    border-width: 8px;
+    border-style: groove;
+    border: solid;
+    border-color: beige;
+    background-color: black;
+}
